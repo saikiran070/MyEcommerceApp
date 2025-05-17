@@ -57,7 +57,7 @@ const App = () => {
       <Router>
         <header className="bg-yellow-400 p-4 flex justify-between items-center shadow-md">
           <Link to="/" className="text-2xl font-extrabold text-gray-900">
-            Amazon Mini
+            Shopping
           </Link>
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
