@@ -6,6 +6,7 @@ import Cart from "./components/Cart";
 import SidebarCart from "./components/SidebarCart";
 
 const CartContext = createContext();
+// eslint-disable-next-line react-refresh/only-export-components
 export const useCart = () => useContext(CartContext);
 
 const App = () => {
